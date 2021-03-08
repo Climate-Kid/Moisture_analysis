@@ -1,2 +1,5 @@
 # Moisture_analysis
-The simple mositure analysis is based on precipitable water and total precipitation 
+The moisture analysis is based on calculating the relationship between precipitable water and total precipitation 
+The code is written in pyhton3
+
+Jiacheng Ye Mar 8 2021
