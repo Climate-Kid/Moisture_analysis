@@ -7,4 +7,4 @@ The program inside mositure_analysis.py contains three sections:
 Test data contains ERA5 reanalysis and GEFS output. 
 Test figures are stored in moisture_analysis_fig.pdf
 
-Jiacheng Ye Mar 8 2021
+Jiacheng Ye Mar 8 2021, guided by Dr. Zhuo Wang
