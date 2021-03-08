@@ -1,5 +1,7 @@
 # Moisture_analysis
-The moisture analysis is based on calculating the relationship between precipitable water and total precipitation 
-The code is written in pyhton3
+The python file contains three sections:
+1. Plot precipitable water probability distribution
+1. Plot precipitation probability distribution
+1. Plot PW vs. TP relationship
 
 Jiacheng Ye Mar 8 2021
