@@ -19,8 +19,9 @@ lsm_nan[lsm>=0.01]=np.nan
 lsm_nan_20S20N=lsm_nan[70:111]
 
 # read data (already regrided to 1d x 1d) 
-# load GEFS data and ERA5 data (for obs PW analysis) and GPCP data (for obs precip analysis) from 2000 to 2001 in July
-### data structure:  2, 31, 16, 41, 360   <=> iyear, iday, forecast lead time, ilat, ilon
+# load GEFS data and ERA5 data (for obs PW analysis) and GPCP data (for obs precip analysis) from 2000 to 2001 but only in the first five days for July in each year
+# due to github maximum file size limit
+### data structure:  2, 5, 16, 41, 360   <=> iyear, iday, forecast lead time, ilat, ilon
 ### lat: 0->41 = 20N->20S;    lon: 0->360 = 0 degree east - 359 degree east
 tp_GEFS=np.load('YOUR_DIRECTORY/tp_GEFS.npy')
 pw_GEFS=np.load('YOUR_DIRECTORY/pw_GEFS.npy')
